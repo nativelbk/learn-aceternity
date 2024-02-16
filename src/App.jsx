@@ -1,6 +1,7 @@
 /** @format */
 
 import ThreeDCardDemo from "./components/3dCar";
+import { BackgroundGradientAnimationDemo } from "./components/Gradient";
 import { HeroParallaxDemo } from "./components/Parallax";
 // import { SparklesPreview } from "./components/SparklesPreview";
 
@@ -11,6 +12,7 @@ export default function App() {
       <ThreeDCardDemo />
       {/* <SparklesPreview /> */}
       <HeroParallaxDemo />
+      <BackgroundGradientAnimationDemo />
     </>
   );
 }
